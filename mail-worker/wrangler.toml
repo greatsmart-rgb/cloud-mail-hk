@@ -8,16 +8,16 @@ enabled = true
 
 #[[d1_databases]]
 #binding = "db"			#d1数据库绑定名默认不可修改
-#database_name = ""		#d1数据库名字
-#database_id = ""		#d1数据库id
+#database_name = "cloudmail"		#d1数据库名字
+#database_id = "e6af7041-962a-451f-bd52-241e896cfc60"		#d1数据库id
 
 #[[kv_namespaces]]
 #binding = "kv"			#kv绑定名默认不可修改
-#id = ""					#kv数据库id
+#id = "f15aada5480f457bbc1e849b0cea4ebe"					#kv数据库id
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
-#bucket_name = ""		#r2对象存储桶的名字
+#bucket_name = "cloud-mail-r2"		#r2对象存储桶的名字
 
 #[[send_email]]
 #name = "email"			#CF发件, 配置后优先使用
