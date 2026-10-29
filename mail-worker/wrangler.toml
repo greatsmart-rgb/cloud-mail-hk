@@ -13,7 +13,7 @@
 # Worker — custom domain route, D1, KV, R2 and send_email bindings all go away
 # and mail stops flowing. Confirm `name` does not collide before deploying.
 
-name = "cloud-mail"
+name = "cloud-mail-hk"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 compatibility_flags = ["nodejs_compat"]
